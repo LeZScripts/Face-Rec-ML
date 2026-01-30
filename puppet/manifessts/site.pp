@@ -8,5 +8,3 @@ file { 'C:/FaceRecProject/README.txt':
   ensure  => file,
   content => 'This project is managed by Puppet.',
 }
-
-//Adding Puppet
