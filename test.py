@@ -188,3 +188,4 @@ activation4.forward(layer4.output)
 predictions = np.argmax(activation4.output, axis=1)
 print("Predictions for each subject:", predictions)
 print("Program completed.")
+
