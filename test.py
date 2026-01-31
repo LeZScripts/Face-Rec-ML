@@ -15,9 +15,7 @@ camera_input = False
 
 names = {0:'MML' , 1:'mml' , 2:'mml' , 3:'sol' , 4:'sol', 5:'sol'}
 
-# -----------------------------
 # Load subject photos
-# -----------------------------
 if not os.path.exists(folder):
     print("❌ Folder not found:", folder)
     exit()
