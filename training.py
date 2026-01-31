@@ -280,6 +280,9 @@ for i in range(10000000):
         print('\nrv : ' , rv)
         print('acc : ',round(acc*100000)/1000)
         print('loss : ',loss)
+
+
+    
     if i %50==0:
         print(i)
 
